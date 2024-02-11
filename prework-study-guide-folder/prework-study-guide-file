@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/style.css">
+    <title>Prework Study Guide</title>
+  </head>
+  <body>
+    <header id="top">
+      <h1>Prework Study Guide</h1>
+      <img src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
+      <h2>✨ Open the Console to See What's Happening ✨</h2>
+    </header>
+    <main>
+      <section class="card" id="html-section">
+        <h2>HTML</h2>
+        <ul>
+          <li>Structure and content</li>
+          <li>The head element contains information about webpage</li>
+          <li>The body element represents the visible content shown to the user</li>
+        </ul>
+      </section>
+
+      <section class="card" id="css-section">
+        <h2>CSS</h2>
+        <ul>
+          <li>Style and presentation of a webpage.</li>
+          <li>Inline CSS: Quick permanent changes. Must be edited individually.</li>
+          <li>Internal CSS Style Sheet: Contains style for the whole webpage. Lives in the Head section.</li>
+          <li>External CSS Style Sheet: Most Common. Keeps CSS rules in separate file. Uses link file in Head </li>
+          <li>A margin indicates how much space we want around the outside of an element.</li>
+          <li>A padding indicates how much space we want around the content inside an element.</li>
+        </ul>
+      </section>
+
+      <section class="card" id="git-section">
+        <h2>Git</h2>
+        <ul>
+          <li>Control system. Tracks changes made to file</li>
+          <li>git status: checks what branch we are currently on</li>
+          <li>git checkout -b branch name: creates a new branch and switches to it</li>
+        </ul>
+      </section>
+
+      <section class="card" id="javascript-section">
+        <h2>JavaScript</h2>
+        <ul>
+          <li>Allows users to interact with website. Located in body of HTML.</li>
+          <li>Variables - containers that store values.</li>
+          <li>String - a named variable (In quotes)</li>
+          <li>Number - a numeric variable (no quotes)</li>
+          <li>Boolean - True/false (no quotes) </li>
+          <li>Array - multiple values in a single reference.</li>
+          <li>Assignment - "=" - assigns value</li>
+          <li>Strict equality - "===" - Tests to see if two values are equal and of the same data (results in boolean)</li>
+          <li>Conditionals - "if" "else" statements</li>
+          <li>Control Code - Order in which a copmuter executes code in a script (JS usually works from top to bottom unless an "if" statement is present).</li>
+          <li>1st item in an array is assigned "0" not "1"</li>
+          <li>Function - Set of instructions that tells the computer how to perform a certain task</li>
+          <li>A funtions name is followed by parentheses</li>
+        </ul>
+      </section>
+    </main>
+
+    <footer>
+      <p>I can code!</p>
+    </footer>
+    <script src="./assets/script.js"></script>
+  <script src="./assets/script.js"></script>
+  </body>
+</html>
